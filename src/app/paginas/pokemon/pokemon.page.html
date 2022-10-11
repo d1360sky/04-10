@@ -1,9 +1,19 @@
+<p>
 <ion-header>
   <ion-toolbar>
     <ion-title>pokemon</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
- {{nombre}}
-</ion-content>
+<ion-card>
+  <img src="{{imagen}}" width="150">
+  <ion-card-header>
+    <ion-card-subtitle>{{numero}}</ion-card-subtitle>
+    <ion-card-title>{{nombre}}</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content>
+    Habilidad = {{habilidad}}
+  </ion-card-content>
+</ion-card>
+</p>

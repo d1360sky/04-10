@@ -12,9 +12,16 @@ type Stat = {
   }
 }
 
+type Abilities = {
+  ability:{
+    name:string;
+  }
+}
+
 export interface Pokemon {
   name:string;
   order:number;
   sprites: Sprites;
   stats:Array<Stat>;
+  abilities:Array<Abilities>;
 }
